@@ -50,7 +50,6 @@ namespace GestorPuntaje.GUI
                     if (puntajesOrdenados.Count > 1 && puntajesOrdenados[0].puntaje > puntajesOrdenados[1].puntaje)
                     {
                         string ganador = puntajesOrdenados[0].nombre;
-                        MessageBox.Show($"Ha ganado {puntajesOrdenados[0].nombre}");
                     }
                 }
             }
